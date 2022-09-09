@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo_imgpng{
+  height: 40px;
+  width: 50px;
+}
+@media screen and (max-width: 768px) {
+  .logo_imgpng{
+    height: 80px;
+    width: 120px;
+  }
+}
+
+/* about  */
+.about_heading{
+  text-align: center;
+  margin-top :3rem;
+}
+.about-green{
+  margin: 5rem;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.about_us{
+  width: 600px;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  .about_img{
+    height: 500px;
+    width: 500px;
+  }
+  
+}
+@media screen and (max-width: 426px){
+  .about_img{
+    height: 300px;
+    width: 300px;
+  }
+  
+}
+
+
+/* team */
+.team{
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team_card{
+  margin-top:2rem ;
+}
+
+/* footer  */
+.footer_link{
+  text-decoration: none;
+}
